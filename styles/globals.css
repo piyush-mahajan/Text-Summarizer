@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+* {
+  background-color: #21282e;
+  color: #fad6a5;
+}
+div {
+  border-style: solid;
+}
