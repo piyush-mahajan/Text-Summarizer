@@ -7,7 +7,7 @@ export default async function handler(req, res) {
     headers: {
       "content-type": "application/json",
       "x-rapidapi-host": "tldrthis.p.rapidapi.com",
-      "x-rapidapi-key": process.env.NEXT_PUBLIC_RAPIDAPI_KEY,
+      "x-rapidapi-key": "3e12f56198mshf04dc81dbc2142dp1ce2c3jsn07cc45956320",
     },
     data: {
       text: req.body.text,
